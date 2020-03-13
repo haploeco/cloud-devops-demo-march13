@@ -16,4 +16,5 @@ def this():
     return 1
 
 if __name__ == "__main__":  # Step 5: Call function in __name__ method
+    # pylint: disable=no-value-for-parameter
     make_apple()
